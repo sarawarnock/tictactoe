@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="header">
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <table class="table">
+        <tbody>
+            <tr class="x1">
+                <td id="x1 y1"></td>
+                <td id="x1 y2"></td>
+                <td id="x1 y3"></td>
+            </tr>
+            <tr class="x2">
+                <td id="x2 y1"></td>
+                <td id="x2 y2"></td>
+                <td id="x2 y3"></td>
+            </tr>
+            <tr class="x3">
+                <td id="x3 y1"></td>
+                <td id="x3 y2"></td>
+                <td id="x3 y3"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <span>
+            <input size="10" type="text" id="board-size-input" placeholder="Board: 3" />
+        </span>
+    </div>
+    <div>
+        <span>
+            <input size="10" type="text" id="to-win-input" placeholder="To win: 3" />
+        </span>
+    </div>
+    <div>
+        <button id="submit-button">Submit</button>
+    </div>
+    <div><p class="alert"></p></div>
+    <script src="index.js"></script>
+</body>
+
+</html>

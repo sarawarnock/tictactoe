@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+table {
+    height: 50vh;
+    width: 50vh;
+}
+
+td {
+    border: 1px solid black;
+}
