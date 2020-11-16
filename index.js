@@ -16,3 +16,16 @@ const DOM = {
     board: document.querySelector("tbody"),
 };
 
+let state = {
+    currentPlayer: "x",
+    player : {
+        x: [],
+        o: [],
+    },
+    playerName: {
+        x: "Blue",
+        o: "Green",
+    },
+    boardSize: 3,
+    toWin: 3,
+};
