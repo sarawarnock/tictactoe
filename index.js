@@ -29,3 +29,11 @@ let state = {
     boardSize: 3,
     toWin: 3,
 };
+
+function main() {
+    DOM.tiles.forEach((tile) => {
+        tile.addEventListener("click", insertToken);
+    });
+}
+
+main();
